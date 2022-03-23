@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400&family=Roboto:wght@300;400&display=swap');
+
+:root {
+    --left: 0px;
+}
+
+* {
+    font-family: Fredoka;
+    color: black;
+}
+
+html {
+    background-color: #999;
+}
+
+#hh1 {
+    position: absolute;
+    left: 600px;
+    background-color: lightgray;
+}
+
+header {
+    position: relative;
+    height: 30vh;
+}
+
+button {
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    border-width: 8px;
+    border-color: red;
+    border-style: groove;
+}
+
+button:hover {
+    animation-name: b1;
+    animation-duration: 250ms;
+    animation-fill-mode: forwards;
+}
+
+@keyframes b1 {
+    100% {
+        border-color: #777;
+        background-color: red;
+        color: white;
+    }
+}
+
+#b1 {
+    position: absolute;
+    left: var(--left);
+}
+
+body {
+    position: relative;
+}
+
+#b2 {
+    position: absolute;
+    left: calc(var(--left) + 300px)
+}
+
+body div {
+    --left: 500px;
+}
