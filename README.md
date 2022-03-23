@@ -8,5 +8,3 @@ The folder offical, holds stuff, that I put my offical (and not test) websites i
 
 ## tests
 The folder tests, I put my test websites in.
-
-### Idk
