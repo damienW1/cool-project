@@ -37,3 +37,7 @@ header {
     top: 300px;
     left: 0px;
 }
+
+html {
+    background-color: lightblue;
+}
